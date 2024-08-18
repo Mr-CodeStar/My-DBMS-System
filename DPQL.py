@@ -49,8 +49,8 @@ connected_db=""
 def Creater_info():
     VERSION="1.0.0.0"
     Creater_name="Dev Barma"
-    print("Programe Veision={}".format(VERSION))
-    print("Hey! i am {}!. Thanks for using DPQL.\nUpdates will be available for newer version at:-\ngithub.com/Mr-CodeStar\nDo check it out for any updates!".format(Creater_name))
+    print("Programe Version={}".format(VERSION))
+    print("Hey! i am {}!. Thanks for using DPQL.\nUpdates will be available for newer version at:-\nhttps:/github.com/Mr-CodeStar\nDo check it out for any updates!".format(Creater_name))
 def consdb(db_name):
     conn=sqlite3.connect("DQL/"+db_name+".db")
     print("database created!")
