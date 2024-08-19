@@ -53,7 +53,7 @@ def Creater_info():
     print("Hey! i am {}!. Thanks for using DPQL.\nUpdates will be available for new version at:-\nhttps://github.com/Mr-CodeStar\nDo check it out for any updates!".format(Creater_name))
 def consdb(db_name):
     conn=sqlite3.connect("DQL/"+db_name+".db")
-    print("database created!")
+    print(Fore.GREEN+Style.BRIGHT+"database created!"+Style.RESET_ALL)
     conn.close()
     nodb=sqlite3.connect("DQL/DQL_user/no_of_db.db")
     cursor=nodb.cursor()
