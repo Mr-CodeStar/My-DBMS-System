@@ -17,10 +17,10 @@ Commands Syntax use in this system:-
      use <database-name>
 4) To drop a database:
      drop database <database-name>
-*Note please first select a database to work/create a table
+#Note please first select a database to work/create a table
 5) To create a table:
      create table <table-name> (<field> <type>)
-   *Note you can create as many fields as you want but all will be written in a single line!
+   #Note you can create as many fields as you want but all will be written in a single line!
 6) To insert into a table:
      insert into <table-name> values (<items>)
      You can also pass multiple parameters in the insert command by seperating it by ','
